@@ -1,7 +1,6 @@
-jupyterlab
-matplotlib
-pandas
-pandas-profiling
-scikit-learn
-seaborn
-streamlit
+jupyterlab>=3.0.16
+matplotlib>=3.4.2
+pandas>=1.2.4
+scikit-learn>=0.24.2
+seaborn>=0.11.1
+streamlit>=0.82.0
