@@ -16,7 +16,7 @@ $ pip install -r requirements.txt
 ```
 ## Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hh7X2ycEcOmuX5LhsB2ZdpM2N5RQRx06]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hh7X2ycEcOmuX5LhsB2ZdpM2N5RQRx06)
 
 Note that I use OpenML to get the dataset (the dataset is slightly different from the Kaggle version) so that there won't be separate data files to handle. 
 
