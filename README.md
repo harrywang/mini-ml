@@ -2,7 +2,7 @@
 
 This repo contains the code for my minimalist end-to-end data science project tutorial.
 
-## Setup
+## Local Setup
 
 Python 3 required, see my tutorial to setup Python 3: https://bit.ly/2uX6wAX
 

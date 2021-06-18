@@ -34,10 +34,10 @@ tree_clf = joblib.load('clf-best.pickle')
 sex = st.selectbox('Sex', ['female', 'male'])
 age = int(st.number_input('Age:', 0, 120, 20))
 sib_sp = int(st.number_input('# of siblings / spouses aboard:', 0, 10, 0))
-par_ch = int(st.number_input('# of parents / children aboard:', 0, 10, 0))
+#par_ch = int(st.number_input('# of parents / children aboard:', 0, 10, 0))
 pclass = st.selectbox('Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)', [1, 2, 3])
 fare = int(st.number_input('# of parents / children aboard:', 0, 100, 0))
-embarked = st.selectbox('Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)', ['C', 'Q', 'S'])
+#embarked = st.selectbox('Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)', ['C', 'Q', 'S'])
 
 # this is how to dynamically change text
 prediction_state = st.markdown('calculating...')
@@ -48,9 +48,9 @@ passenger = pd.DataFrame(
         'Sex': [sex], 
         'Age': [age],
         'SibSp': [sib_sp],
-        'Parch': [par_ch],
+#        'Parch': [par_ch],
         'Fare': [fare],
-        'Embarked': [embarked],
+#        'Embarked': [embarked],
     }
 )
 
