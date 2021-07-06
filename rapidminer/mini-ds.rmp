@@ -236,7 +236,7 @@
       <operator activated="true" class="concurrency:optimize_parameters_grid" compatibility="9.9.002" expanded="true" height="124" name="GridSearch-DT" width="90" x="581" y="340">
         <list key="parameters">
           <parameter key="Decision Tree.criterion" value="information_gain,gini_index"/>
-          <parameter key="Decision Tree.maximal_depth" value="[-1.0;100.0;10;linear]"/>
+          <parameter key="Decision Tree.maximal_depth" value="[3;20;10;linear]"/>
         </list>
         <parameter key="error_handling" value="fail on error"/>
         <parameter key="log_performance" value="true"/>
@@ -253,7 +253,7 @@
             <parameter key="local_random_seed" value="1992"/>
             <parameter key="enable_parallel_execution" value="true"/>
             <process expanded="true">
-              <operator activated="true" class="concurrency:parallel_decision_tree" compatibility="9.9.002" expanded="true" height="103" name="Decision Tree" width="90" x="112" y="85">
+              <operator activated="true" class="concurrency:parallel_decision_tree" compatibility="9.9.002" expanded="true" height="103" name="Decision Tree" width="90" x="246" y="85">
                 <parameter key="criterion" value="information_gain"/>
                 <parameter key="maximal_depth" value="10"/>
                 <parameter key="apply_pruning" value="true"/>
@@ -325,7 +325,7 @@
         </process>
       </operator>
       <operator activated="true" class="store" compatibility="9.9.002" expanded="true" height="68" name="Store" width="90" x="782" y="391">
-        <parameter key="repository_entry" value="mini-ds-model"/>
+        <parameter key="repository_entry" value="//Local Repository/deployment/mini-ds-model1"/>
       </operator>
       <connect from_op="Read CSV" from_port="output" to_op="Select Attributes" to_port="example set input"/>
       <connect from_op="Select Attributes" from_port="example set output" to_op="Set Role" to_port="example set input"/>
