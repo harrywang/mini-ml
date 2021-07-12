@@ -2,6 +2,12 @@
 
 This repo contains the code for my minimalist end-to-end machine learning project tutorial.
 
+- `mini-ml.ipynb`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence
+- `titanic-streamlit-app.py`: machine learning web app via Streamlit
+- `rapidminer`: programming-free version using Rapidminer
+- `mini-ml-automl.ipynb`: AutoEDA and AutoML (AutoGluon)
+- `mini-ml-clearml.ipynb` and `pytorch_mnist_clearml.py`: MLOps (ClearML)
+
 ## Local Setup
 
 Python 3 required, see my tutorial to setup Python 3: https://bit.ly/2uX6wAX
