@@ -1,6 +1,6 @@
 # About
 
-This repo contains the code for my minimalist end-to-end data science project tutorial.
+This repo contains the code for my minimalist end-to-end machine learning project tutorial.
 
 ## Local Setup
 
@@ -23,7 +23,7 @@ Run `$ jupyter lab` to go over the notebooks.
 
 Note that I use OpenML to get the dataset (the dataset is slightly different from the Kaggle version) so that there won't be separate data files to handle. 
 
-## Data Science App
+## Machine Learning Web App
 
 Steps to get the streamlit app running (make sure to use the Terminal and the virtual environment is activated):
 
