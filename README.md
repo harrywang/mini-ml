@@ -1,6 +1,6 @@
 # About
 
-This repo contains the code for my minimalist end-to-end machine learning project tutorial.
+This repo contains the code for my minimalist end-to-end machine learning tutorial.
 
 - `mini-ml.ipynb`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence
 - `titanic-streamlit-app.py`: machine learning web app via Streamlit
