@@ -12,8 +12,7 @@ This repo contains the code for my minimalist end-to-end machine learning tutori
 
 Python 3 required, see my tutorial to setup Python 3: https://bit.ly/2uX6wAX
 
-Clone the repo, go to the repo folder, setup the virtual environment, and install the required packages:
-
+Clone the repo, go to the repo folder in Terminal, setup the virtual environment and install the required packages as follows:
 
 ```shell
 $ python3 -m venv venv
@@ -21,7 +20,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-Run `$ jupyter lab` to go over the notebooks.
+Run `$ jupyter lab` or `$ code .` (if use VSCode) to go over the notebooks.
 
 ## Google Colab
 
