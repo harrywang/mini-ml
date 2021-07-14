@@ -25,8 +25,8 @@ Run `$ jupyter lab` or `$ code .` (if use VSCode) to go over the notebooks.
 ## Kaggle Notebooks
 
 You can also directly run notebooks using Kaggle: 
-- `mini-ml.ipynb`: https://www.kaggle.com/harrywang/minimalist-machine-learning-tutorial
-- `mini-ml-automl.ipynb`: https://www.kaggle.com/harrywang/autoeda-and-automl
+- `mini-ml.ipynb`: [https://www.kaggle.com/harrywang/minimalist-machine-learning-tutorial](https://www.kaggle.com/harrywang/minimalist-machine-learning-tutorial)
+- `mini-ml-automl.ipynb`: [https://www.kaggle.com/harrywang/autoeda-and-automl](https://www.kaggle.com/harrywang/autoeda-and-automl)
 
 ## Machine Learning Web App
 
