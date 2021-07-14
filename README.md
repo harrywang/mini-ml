@@ -4,7 +4,7 @@ This repo contains the code for my minimalist end-to-end machine learning tutori
 
 - `mini-ml.ipynb`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence
 - `titanic-streamlit-app.py`: machine learning web app via Streamlit
-- `rapidminer`: programming-free version using Rapidminer
+- `rapidminer`: no-code version using Rapidminer
 - `mini-ml-automl.ipynb`: AutoEDA and AutoML (AutoGluon)
 - `mini-ml-clearml.ipynb` and `pytorch_mnist_clearml.py`: MLOps (ClearML)
 
@@ -22,11 +22,11 @@ $ pip install -r requirements.txt
 
 Run `$ jupyter lab` or `$ code .` (if use VSCode) to go over the notebooks.
 
-## Google Colab
+## Kaggle Notebooks
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hh7X2ycEcOmuX5LhsB2ZdpM2N5RQRx06)
-
-Note that I use OpenML to get the dataset (the dataset is slightly different from the Kaggle version) so that there won't be separate data files to handle. 
+You can also directly run notebooks using Kaggle: 
+- `mini-ml.ipynb`: https://www.kaggle.com/harrywang/minimalist-machine-learning-tutorial
+- `mini-ml-automl.ipynb`: https://www.kaggle.com/harrywang/autoeda-and-automl
 
 ## Machine Learning Web App
 
