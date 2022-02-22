@@ -1,6 +1,6 @@
 # About
 
-**NOTE**: If you are using Mac with M1 chip, you cannot use autogluon - because autogluon does not support M1 yet!! - you have to comment out the autogluon package from the requirements.txt.
+**NOTE**: If you are using Mac with M1 chip, you cannot use autogluon - because autogluon does not support M1 yet!! - you have to use `requirements-m1.txt` to install packages, which does not include autogluon - you can run the autogluon tutorial using Kaggle link below instead.
 
 This repo contains the code for my minimalist end-to-end machine learning tutorial.
 
@@ -17,12 +17,12 @@ Python 3 required, see my tutorial to setup Python 3: https://bit.ly/2uX6wAX
 Clone the repo, go to the repo folder in Terminal, setup the virtual environment and install the required packages as follows:
 
 ```shell
-$ python3 -m venv venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
-Run `$ jupyter lab` or `$ code .` (if use VSCode) to go over the notebooks.
+Run `jupyter lab` or `code .` (if use VSCode) to go over the notebooks.
 
 ## Kaggle Notebooks
 
