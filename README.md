@@ -1,7 +1,5 @@
 # About
 
-**NOTE**: If you are using Mac with M1 chip, you cannot use autogluon - because autogluon does not support M1 yet!! - you have to use `requirements-m1.txt` to install packages, which does not include autogluon - you can run the autogluon tutorial using Kaggle link below instead.
-
 This repo contains the code for my minimalist end-to-end machine learning tutorial.
 
 - `mini-ml.ipynb`: basic full pipeline with EDA, preprocessing, model tuning/evaluation/selection/persistence

@@ -3,34 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import joblib
 
-st.title('Titanic Survival Analysis and Prediction')
-# load dataset
-df = pd.read_csv('titanic.csv')
-
-# show the entire dataframe
-st.write(df)
-
-# f-string
-st.subheader('Survival Rate')
-survival_count = df['Survived'].value_counts()
-st.text(f'Survival rate = {survival_count.values[1]/sum(survival_count):.2%}')
-
-# simple plotting
-fig, ax = plt.subplots(1, 2, figsize=(15, 5))
-survival_count.plot.bar(ax=ax[0])
-df['Age'].plot.hist(ax=ax[1])
-st.pyplot(fig)
-
-
-st.subheader('Making Prediction')
+st.title('Titanic Survival Prediction')
 st.markdown('**Please provide passenger information**:')  # you can use markdown like this
-
 
 # load models
 tree_clf = joblib.load('clf-best.pickle')
 
 # get inputs
-
 sex = st.selectbox('Sex', ['female', 'male'])
 age = int(st.number_input('Age:', 0, 120, 20))
 sib_sp = int(st.number_input('# of siblings / spouses aboard:', 0, 10, 0))
