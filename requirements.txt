@@ -8,3 +8,4 @@ scikit-learn
 seaborn
 streamlit
 torch
+torchvision
